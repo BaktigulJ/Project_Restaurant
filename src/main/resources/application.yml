@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/for_restaurant
+    username: postgres
+    password: 1234
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+
+server:
+  port: 1212
+
+  error:
+    include-stacktrace: always
+
+
+app:
+  jwt:
+    secret: BaktigulJK
